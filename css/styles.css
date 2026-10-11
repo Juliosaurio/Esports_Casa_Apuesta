@@ -1,0 +1,83 @@
+/* Variables y estilos base del sitio */
+
+:root {
+    --color-background: #0B1020;
+    --color-primary: #00D9FF;
+    --color-secondary: #7C3AED;
+    --color-text: #FFFFFF;
+    --color-card: #151b2e;
+    --color-border: #2a3550;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: var(--color-background);
+    color: var(--color-text);
+    line-height: 1.5;
+    min-height: 100vh;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+a {
+    color: var(--color-primary);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:focus-visible {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 2px;
+}
+
+ul {
+    list-style: none;
+}
+
+h1, h2, h3 {
+    line-height: 1.2;
+    margin-bottom: 0.75rem;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: var(--color-primary);
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+main {
+    flex: 1;
+}
+
+.texto-suave {
+    color: #b8c0d4;
+}
+
+.aviso-demo {
+    background-color: var(--color-card);
+    border: 1px solid var(--color-secondary);
+    border-radius: 8px;
+    padding: 0.75rem 1rem;
+    margin-bottom: 1.5rem;
+    font-size: 0.95rem;
+}
