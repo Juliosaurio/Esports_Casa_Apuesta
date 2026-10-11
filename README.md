@@ -2,11 +2,6 @@
 
 Proyecto academico para la materia de **Programacion WEB**. Frontend estatico con HTML5 y CSS3 (Flexbox, Grid y media queries) para una plataforma tematica de esports y pronosticos de demostracion.
 
-## Como ver el sitio
-
-1. Abre el archivo `index.html` en tu navegador (doble clic o arrastrar al navegador).
-2. Navega con el menu superior y el pie de pagina.
-
 No hace falta instalar dependencias en esta etapa.
 
 ## Estructura
